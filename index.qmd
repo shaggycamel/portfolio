@@ -1,11 +1,45 @@
 ---
-title: "portfolio"
+title: "Oliver Eaton"
+image: head_shot.jpg
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/oliver-eaton/
+    - text: GitHub
+      href: https://github.com/shaggycamel
+    - text: Email
+      href: mailto:eat_fred@proton.me
 ---
 
-This is a Quarto website.
+# Education
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+-   **Masters of Data Science** (2020) \| Royal Melbourne Institute of Technology
 
-```{r}
-1 + 1
-```
+-   **Bachelor of Science**; *Statistics & Psychology* (2015) \| University of Canterbury
+
+------------------------------------------------------------------------
+
+# Experience
+
+-   Energy Efficiency Conservation Authority (Aug22 - Feb23) \| **Data Scientist**
+
+-   AIA (Apr22 - Aug22) \| **Insights Analyst**
+
+-   Insurance Australia Group (Oct21 - Apr22) \| **Senior Fraud Analyst**
+
+-   Insurance Australia Group (Jun20 - Oct21) \| **Fraud Analyst**
+
+-   Agtuary (Aug20 - Oct20) \| **Data Scientist**
+
+------------------------------------------------------------------------
+
+# Projects
+
+-   [Fantasy NBA Analytics blog](https://shaggycamel.quarto.pub/fantasy-2023/) \| [code](https://github.com/shaggycamel/fantasy_basketball)
+
+-   [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
+
+-   [Music blog](https://shaggycamel.quarto.pub/freds_music_blog/) \| [code](https://github.com/shaggycamel/music_blog)

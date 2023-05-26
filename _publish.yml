@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 07363e1f-6a19-400d-96dc-4e685478f637
+      url: 'https://animated-faloodeh-6f0eb1.netlify.app'

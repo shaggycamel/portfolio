@@ -2,15 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "portfolio",
+    "title": "Oliver Eaton",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Education\n\nMasters of Data Science (2020) | Royal Melbourne Institute of Technology\nBachelor of Science; Statistics & Psychology (2015) | University of Canterbury\n\n\n\n\nExperience\n\nEnergy Efficiency Conservation Authority (Aug22 - Feb23) | Data Scientist\nAIA (Apr22 - Aug22) | Insights Analyst\nInsurance Australia Group (Oct21 - Apr22) | Senior Fraud Analyst\nInsurance Australia Group (Jun20 - Oct21) | Fraud Analyst\nAgtuary (Aug20 - Oct20) | Data Scientist\n\n\n\n\nProjects\n\nFantasy NBA Analytics blog | code\nTravel blog | code\nMusic blog | code"
   }
 ]
