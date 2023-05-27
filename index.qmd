@@ -24,15 +24,15 @@ about:
 
 # Experience <i><span style="font-size:small;">(Hover positions for more info...)</span></i>
 
--   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| **Data Scientist** </span></body>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| <u>**Data Scientist**</u> </span>
 <br><br>
--   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| **Insights Analyst** </span></body>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| <u>**Insights Analyst**</u> </span>
 <br><br>
--   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/iag_senior.txt")`"> Insurance Australia Group (Oct21 - Apr22) \| **Senior Fraud Analyst** </span></body>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/iag_senior.txt")`"> Insurance Australia Group (Oct21 - Apr22) \| <u>**Senior Fraud Analyst**</u></span>
 <br><br>
--   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/iag.txt")`"> Insurance Australia Group (Jun20 - Oct21) \| **Fraud Analyst** </span></body>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/iag.txt")`"> Insurance Australia Group (Jun20 - Oct21) \| <u>**Fraud Analyst**</u> </span>
 <br><br>
--   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/agtuary.txt")`"> Agtuary (Aug20 - Oct20) \| **Data Scientist** </span></body>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/agtuary.txt")`"> Agtuary (Aug20 - Oct20) \| <u>**Data Scientist**</u> </span>
 
 ------------------------------------------------------------------------
 
@@ -43,3 +43,5 @@ about:
 -   [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
 
 -   [Music blog](https://shaggycamel.quarto.pub/freds_music_blog/) \| [code](https://github.com/shaggycamel/music_blog)
+
+-   [Masters Thesis](https://drive.google.com/file/d/1a28B6vzlVzTqRGa1yIGfOYc2CE5ecGZE/view?usp=sharing) \| [code](https://github.com/shaggycamel/agtuary-prediction-model)
