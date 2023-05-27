@@ -44,4 +44,4 @@ about:
 
 -   [Music blog](https://shaggycamel.quarto.pub/freds_music_blog/) \| [code](https://github.com/shaggycamel/music_blog)
 
--   [Masters Thesis](https://drive.google.com/file/d/1a28B6vzlVzTqRGa1yIGfOYc2CE5ecGZE/view?usp=sharing) \| [code](https://github.com/shaggycamel/agtuary-prediction-model)
+-   [Master's Thesis](https://drive.google.com/file/d/1a28B6vzlVzTqRGa1yIGfOYc2CE5ecGZE/view?usp=sharing) \| [code](https://github.com/shaggycamel/agtuary-prediction-model)
