@@ -22,17 +22,17 @@ about:
 
 ------------------------------------------------------------------------
 
-# Experience
+# Experience <i><span style="font-size:small;">(Hover positions for more info...)</span></i>
 
--   Energy Efficiency Conservation Authority (Aug22 - Feb23) \| **Data Scientist**
-
--   AIA (Apr22 - Aug22) \| **Insights Analyst**
-
--   Insurance Australia Group (Oct21 - Apr22) \| **Senior Fraud Analyst**
-
--   Insurance Australia Group (Jun20 - Oct21) \| **Fraud Analyst**
-
--   Agtuary (Aug20 - Oct20) \| **Data Scientist**
+-   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| **Data Scientist** </span></body>
+<br><br>
+-   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| **Insights Analyst** </span></body>
+<br><br>
+-   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/iag_senior.txt")`"> Insurance Australia Group (Oct21 - Apr22) \| **Senior Fraud Analyst** </span></body>
+<br><br>
+-   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/iag.txt")`"> Insurance Australia Group (Jun20 - Oct21) \| **Fraud Analyst** </span></body>
+<br><br>
+-   <body><span class="hovertext" data-hover="`r readLines("job_descriptions/agtuary.txt")`"> Agtuary (Aug20 - Oct20) \| **Data Scientist** </span></body>
 
 ------------------------------------------------------------------------
 

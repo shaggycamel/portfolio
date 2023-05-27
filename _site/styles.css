@@ -1,1 +1,29 @@
 /* css styles */
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: relative;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: opacity 1s ease-in-out;
+  white-space: pre-wrap;
+  
+  position: absolute;
+  z-index: 1;
+  left: -150%;
+  top: -1500%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
