@@ -40,6 +40,8 @@ about:
 
 -   [Fantasy NBA Analytics blog](https://shaggycamel.quarto.pub/fantasy-2023/) \| [code](https://github.com/shaggycamel/fantasy_basketball)
 
+-   Creation & maintenance of open-source blogging software \| [code](https://github.com/shaggycamel/blogme)
+
 -   [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
 
 -   [Music blog](https://shaggycamel.quarto.pub/freds_music_blog/) \| [code](https://github.com/shaggycamel/music_blog)
