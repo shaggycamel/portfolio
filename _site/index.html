@@ -105,15 +105,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="experience-hover-positions-for-more-info" class="level1">
 <h1>Experience <i><span style="font-size:small;">(Hover positions for more info…)</span></i></h1>
 <ul>
+<li>International Travel (Feb23 - Present) <br><br></li>
 <li><span class="hovertext" data-hover="EECA | Data Scientist 
  &nbsp; 
- EECA is a government agency established to monitor and measure carbon emissions &amp; abatement within New Zealand. Their business model involves collaborating with large emitters and providing funding and suggestions for reducing carbon emissions. 
+ EECA is a government agency that monitors and measures carbon emission &amp; abatement within New Zealand. Their business model involves collaborating with large emitters and providing funding and suggestions for reducing carbon emissions. 
  &nbsp; 
- My main focus here is engineering a modern data platform to be used for analysis within the organisation. Other analytical projects I’ve worked on are: 
+ My main focus was engineering a data platform to be used for analysis within the organisation. A major component of this was educating fellow employees on how to efficiently layout and structure project data, which was saved in Excel files, so it could be efficiently processed through the ETL pipeline my team &amp; I were constructing. This involved using SQL and Python, utilising the Azure Cloud environment and managing DB-project files using MS-Studio. I also built a Python package for internal use within the organisation to automate tedious and labourious tasks. 
  &nbsp; 
- • The Regional Heat Demand Dashboard. This dashboard breakdowns fuel demand for process heat (industrial boilers) by region. The application is built using the Rshiny infrastructure. 
- &nbsp; 
- • Desensitising electrical vehicle (EV) location data. Thirty EVs owned by the government have been leased out to various government agencies. I was required to remove GPS co-ordinates from vehicle log-records that fall within the SA2 area of the allocated drivers home. This ensured subsequent analysis conducted on this dataset will not contain personally identifiable information of drivers."> Energy Efficiency Conservation Authority (Aug22 - Feb23) | <u><strong>Data Scientist</strong></u> </span> <br><br></li>
+ Another focus at EECA was building and maintaining Rshiny dashboards for consumption by the New Zealand public. For example, the Regional Heat Demand Dashboard, which breakdowns fuel demand for process heat (industrial boilers) by region &amp; sector."> Energy Efficiency Conservation Authority (Aug22 - Feb23) | <u><strong>Data Scientist</strong></u> </span> <br><br></li>
 <li><span class="hovertext" data-hover="AIA | Insights Analyst 
  &nbsp; 
  My contract at AIA concerned establishing an infrastructure that processes data to be used for Fraud detection, and using this to build a model that quantifies the probability of risk leakage upon newly lodged claims. Analysis was used to dictate the direction of a new online claim lodgement system AIA were introducing to different customer cohorts. 
@@ -127,21 +126,25 @@ ul.task-list li input[type="checkbox"] {
  &nbsp; 
  The Excess Claims Frequency Model project was an anomaly detection model used to classify the “riskyness” of claims lodged within three days of policy inception. This type of suspicious claim is by far the most common, some of which aren’t economical to pursue or of concern. The model categorised claims as low, medium and high risk allowing investigators to focus efforts on medium and high risk claims. This model garnered a lot of success, and was redeveloped to be applied upon claims lodged within four to fourteen days. 
  &nbsp; 
- The Claim Description Comparison project focused on identifying organised crime syndicates, who have been known to recycle claim descriptions. It worked by clustering common claim descriptions using cosine similarity, then further comparing the profile of policy, claim and vehicle configurations between common descriptions using jaccard similarity."> Insurance Australia Group (Oct21 - Apr22) | <u><strong>Senior Fraud Analyst</strong></u></span> <br><br></li>
+ The Claim Description Comparison project focused on identifying organised crime syndicates, who have been known to recycle claim descriptions. It worked by clustering common claim descriptions using cosine similarity, then further comparing the profile of policy, claim and vehicle configurations between common descriptions using jaccard similarity. 
+ &nbsp; 
+ In the process of working on analytical projects I established a code base of re-useable templates &amp; functions for my team, that were wrapped up and stored within an R package."> Insurance Australia Group (Oct21 - Apr22) | <u><strong>Senior Fraud Analyst</strong></u></span> <br><br></li>
 <li><span class="hovertext" data-hover="IAG | Fraud Analyst 
  &nbsp; 
  Modelling and reporting on the performance of existing fraud rules. 
  &nbsp; 
  The inferential modelling of rule performance consisted of fitting a GLMnet model on alerted claims, where investigation flag was the dependent variable, and from this determining which rules were contributing towards alerts being investigated. Such an approach may be deemed somewhat unnecessary, however it was the best way to isolate specific rule performance particularly when a single claim can raise multiple flags. Identifying low performing rules this way acted as a catalyst towards rule amendment &amp; experimentation. 
  &nbsp; 
- Another important piece of analysis concerned conducting ethics reviews of existing and new rules. This analysis aimed to answer the question: do IAG fraud rules inadvertently target population subgroups, such as gender, age, ethnicity and socioeconomic status? Ethnicity and socioeconomic data was obtained from the Australian Bureau of Statistics. Modelling for the ethics review consisted of first fitting a poisson regression model, with alert flag as the dependent variable to identify which population subgroups were over-represented in alert count. Next, relevant regression models (linear for age, logistic for gender, quantile for ethnicity &amp; polr for socieconomic status) were fit with the population subgroup as the dependent variable, and rule flags as independent variables. This way specific rules could be identified as unfairly targeting population subgroups."> Insurance Australia Group (Jun20 - Oct21) | <u><strong>Fraud Analyst</strong></u> </span> <br><br></li>
+ Another important piece of analysis concerned conducting ethics reviews of existing and new rules. This analysis aimed to answer the question: do IAG fraud rules inadvertently target population subgroups, such as gender, age, ethnicity and socioeconomic status? Ethnicity and socioeconomic data was obtained from the Australian Bureau of Statistics. Modelling for the ethics review consisted of first fitting a poisson regression model, with alert flag as the dependent variable to identify which population subgroups were over-represented in alert count. Next, relevant regression models (linear for age, logistic for gender, quantile for ethnicity &amp; polr for socieconomic status) were fit with the population subgroup as the dependent variable, and rule flags as independent variables. This way specific rules could be identified as unfairly targeting population subgroups. 
+ &nbsp; 
+ In this role, I used statistical analysis in a way that had not been used in IAG fraud analytics before. By constantly delivering and showcasing my research in a formal setting to upper management, I became confident in my skills to present &amp; discuss analytical findings."> Insurance Australia Group (Jun20 - Oct21) | <u><strong>Fraud Analyst</strong></u> </span> <br><br></li>
 <li><span class="hovertext" data-hover="Agtuary | Data Scientist 
  &nbsp; 
  My time at Agtuary was part of a work experience course through University. I was tasked with finding a way to induce patterns from remote sensing satellite images in order to predict annual crop yield across Australian farms.  
  &nbsp; 
  As a deliverable, Agtuary required a module that allowed crop yield predictions to be made, and in the process, outputting predictions, model metrics and model parameters to file.  
  &nbsp; 
- After experimenting, the final model was an XGBoost model with Hyperopt tuning. Due to the small sample of training data, observations were simulated using the Prophet module (developed by Facebook). I believe the simulated data points are what drove the success of this model."> Agtuary (Aug20 - Oct20) | <u><strong>Data Scientist</strong></u> </span></li>
+ After experimenting, the final model was an XGBoost model with Hyperopt tuning. Due to the small sample of training data, observations were simulated using the Prophet module (developed by Facebook). I believe the simulated data points are what drove the success of this model. The success of this model actually outperformed the existing CSIRO’s (Aus govt body) crop prediction model."> Agtuary (Aug20 - Oct20) | <u><strong>Data Scientist</strong></u> </span></li>
 </ul>
 <hr>
 </section>
