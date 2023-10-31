@@ -4,7 +4,7 @@ image: head_shot.jpg
 about: 
   template: trestles
   image-shape: round
-  image-width: 15em
+  image-width: 10em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/oliver-eaton/
@@ -14,38 +14,25 @@ about:
       href: mailto:eat_fred@proton.me
 ---
 
-# Education
-
--   **Masters of Data Science** (2020) \| Royal Melbourne Institute of Technology
-
--   **Bachelor of Science**; *Statistics & Psychology* (2015) \| University of Canterbury
-
-------------------------------------------------------------------------
-
 # Experience <i><span style="font-size:small;">(Hover positions for more info...)</span></i>
 
--   International Travel (Feb23 - Present)
+-   International Travel (Feb23 - Present) \| [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
 <br><br>
--   <span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| <u>**Data Scientist**</u> </span>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| <u>**Data Scientist**</u></span>
 <br><br>
--   <span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| <u>**Insights Analyst**</u> </span>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| <u>**Insights Analyst**</u></span>
 <br><br>
 -   <span class="hovertext" data-hover="`r readLines("job_descriptions/iag_senior.txt")`"> Insurance Australia Group (Oct21 - Apr22) \| <u>**Senior Fraud Analyst**</u></span>
 <br><br>
--   <span class="hovertext" data-hover="`r readLines("job_descriptions/iag.txt")`"> Insurance Australia Group (Jun20 - Oct21) \| <u>**Fraud Analyst**</u> </span>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/iag.txt")`"> Insurance Australia Group (Jun20 - Oct21) \| <u>**Fraud Analyst**</u></span>
 <br><br>
--   <span class="hovertext" data-hover="`r readLines("job_descriptions/agtuary.txt")`"> Agtuary (Aug20 - Oct20) \| <u>**Data Scientist**</u> </span>
+-   <span class="hovertext" data-hover="`r readLines("job_descriptions/agtuary.txt")`"> Agtuary (Aug20 - Oct20) \| <u>**Data Scientist**</u></span>
+<br><br>
+-   Insurance Australia Group (Feb19 - Jun20) \| <u>**Business Performance Analyst**</u>
+<br><br>
+-   Roy Morgan (Oct17 - Jan19) \| <u>**Panel Manager of Web Audience Research**</u>
+<br><br>
+-   Roy Morgan (Sep15 - Oct17) \| <u>**Reporting, Data Analyst**</u>
+<br><br>
+-   Tenergy Solar (Jun15 - Aug15) \| <u>**Data Analysis & Visualisation**</u>
 
-------------------------------------------------------------------------
-
-# Projects
-
--   [Fantasy NBA Analytics blog](https://shaggycamel.quarto.pub/fantasy-2023/) \| [code](https://github.com/shaggycamel/fantasy_basketball)
-
--   Creation & maintenance of open-source blogging software \| [code](https://github.com/shaggycamel/blogme)
-
--   [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
-
--   [Music blog](https://shaggycamel.quarto.pub/freds_music_blog/) \| [code](https://github.com/shaggycamel/music_blog)
-
--   [Master's Thesis](https://drive.google.com/file/d/1a28B6vzlVzTqRGa1yIGfOYc2CE5ecGZE/view?usp=sharing) \| [code](https://github.com/shaggycamel/agtuary-prediction-model)
