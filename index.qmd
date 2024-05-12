@@ -16,9 +16,11 @@ about:
 
 # Experience <i><span style="font-size:small;">(Hover positions for more info...)</span></i>
 
--   International Travel (Feb23 - Present) \| [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
+-   <span class="hover text" data-hover="`r readLines("job_descriptions/beca.txt")`"> Beca (Nov23 - Present) \| <u>**Senior Asset Technician**</u></span>
 <br><br>
--   <span class="hovertext" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| <u>**Data Scientist**</u></span>
+-   International Travel (Feb23 - Nov23) \| [Travel blog](https://shaggycamel-travelblog.netlify.app/) \| [code](https://github.com/shaggycamel/travel_blog)
+<br><br>
+-   <span class="hover text" data-hover="`r readLines("job_descriptions/eeca.txt")`"> Energy Efficiency Conservation Authority (Aug22 - Feb23) \| <u>**Data Scientist**</u></span>
 <br><br>
 -   <span class="hovertext" data-hover="`r readLines("job_descriptions/aia.txt")`"> AIA (Apr22 - Aug22) \| <u>**Insights Analyst**</u></span>
 <br><br>

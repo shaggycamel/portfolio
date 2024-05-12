@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -43,7 +43,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -52,8 +58,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -70,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
+<div class="quarto-about-trestles content">
   <div class="about-entity">
     <img src="head_shot.jpg" class="about-image
   round " style="height: 10em; width: 10em;">
@@ -82,13 +90,13 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.linkedin.com/in/oliver-eaton/" class="about-link">
+  <a href="https://www.linkedin.com/in/oliver-eaton/" class="about-link" rel="" target="">
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://github.com/shaggycamel" class="about-link">
+  <a href="https://github.com/shaggycamel" class="about-link" rel="" target="">
      <span class="about-link-text">GitHub</span>
   </a>
-  <a href="mailto:eat_fred@proton.me" class="about-link">
+  <a href="mailto:eat_fred@proton.me" class="about-link" rel="" target="">
      <span class="about-link-text">Email</span>
   </a>
 </div>
@@ -97,46 +105,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="experience-hover-positions-for-more-info" class="level1">
 <h1>Experience <i><span style="font-size:small;">(Hover positions for more info…)</span></i></h1>
 <ul>
-<li>International Travel (Feb23 - Present) | <a href="https://shaggycamel-travelblog.netlify.app/">Travel blog</a> | <a href="https://github.com/shaggycamel/travel_blog">code</a> <br><br></li>
-<li><span class="hovertext" data-hover="EECA | Data Scientist 
- &nbsp; 
- EECA is a government agency that monitors and measures carbon emission &amp; abatement within New Zealand. Their business model involves collaborating with large emitters and providing funding and suggestions for reducing carbon emissions. 
- &nbsp; 
- My main focus was engineering a data platform to be used for analysis within the organisation. A major component of this was educating fellow employees on how to efficiently layout and structure project data, which was saved in Excel files, so it could be efficiently processed through the ETL pipeline my team &amp; I were constructing. This involved using SQL and Python, utilising the Azure Cloud environment and managing DB-project files using MS-Studio. I also built a Python package for internal use within the organisation to automate tedious and labourious tasks. 
- &nbsp; 
- Another focus at EECA was building and maintaining Rshiny dashboards for consumption by the New Zealand public. For example, the Regional Heat Demand Dashboard, which breakdowns fuel demand for process heat (industrial boilers) by region &amp; sector."> Energy Efficiency Conservation Authority (Aug22 - Feb23) | <u><strong>Data Scientist</strong></u></span> <br><br></li>
-<li><span class="hovertext" data-hover="AIA | Insights Analyst 
- &nbsp; 
- My contract at AIA concerned establishing an infrastructure that processes data to be used for Fraud detection, and using this to build a model that quantifies the probability of risk leakage upon newly lodged claims. Analysis was used to dictate the direction of a new online claim lodgement system AIA were introducing to different customer cohorts. 
- &nbsp; 
- The process entailed using dynamic SQL to integrate a new data pipeline into the existing architect. Output of newly established fraud business rules was visualised using Tableau and stored as a dashboard on AIA’s server, giving internal fraud- investigators an opportunity to make more-informed decisions on claim investigation outcome. 
- &nbsp; 
- Additionally, a machine learning model was built using R to estimate the probability a claim is approved or not upon lodgement. Analysis was used to help choose customer cohorts a new automated online claim lodgement platform is released to."> AIA (Apr22 - Aug22) | <u><strong>Insights Analyst</strong></u></span> <br><br></li>
-<li><span class="hovertext" data-hover="IAG | Senior Fraud Analyst 
- &nbsp; 
- Using ML &amp; NLP techniques to rapidly and accurately identify fraudulent behaviour for Australasia's largest general insurer, with a particular focus on organised crime. 
- &nbsp; 
- The Excess Claims Frequency Model project was an anomaly detection model used to classify the “riskyness” of claims lodged within three days of policy inception. This type of suspicious claim is by far the most common, some of which aren’t economical to pursue or of concern. The model categorised claims as low, medium and high risk allowing investigators to focus efforts on medium and high risk claims. This model garnered a lot of success, and was redeveloped to be applied upon claims lodged within four to fourteen days. 
- &nbsp; 
- The Claim Description Comparison project focused on identifying organised crime syndicates, who have been known to recycle claim descriptions. It worked by clustering common claim descriptions using cosine similarity, then further comparing the profile of policy, claim and vehicle configurations between common descriptions using jaccard similarity. 
- &nbsp; 
- In the process of working on analytical projects I established a code base of re-useable templates &amp; functions for my team, that were wrapped up and stored within an R package."> Insurance Australia Group (Oct21 - Apr22) | <u><strong>Senior Fraud Analyst</strong></u></span> <br><br></li>
-<li><span class="hovertext" data-hover="IAG | Fraud Analyst 
- &nbsp; 
- Modelling and reporting on the performance of existing fraud rules. 
- &nbsp; 
- The inferential modelling of rule performance consisted of fitting a GLMnet model on alerted claims, where investigation flag was the dependent variable, and from this determining which rules were contributing towards alerts being investigated. Such an approach may be deemed somewhat unnecessary, however it was the best way to isolate specific rule performance particularly when a single claim can raise multiple flags. Identifying low performing rules this way acted as a catalyst towards rule amendment &amp; experimentation. 
- &nbsp; 
- Another important piece of analysis concerned conducting ethics reviews of existing and new rules. This analysis aimed to answer the question: do IAG fraud rules inadvertently target population subgroups, such as gender, age, ethnicity and socioeconomic status? Ethnicity and socioeconomic data was obtained from the Australian Bureau of Statistics. Modelling for the ethics review consisted of first fitting a poisson regression model, with alert flag as the dependent variable to identify which population subgroups were over-represented in alert count. Next, relevant regression models (linear for age, logistic for gender, quantile for ethnicity &amp; polr for socieconomic status) were fit with the population subgroup as the dependent variable, and rule flags as independent variables. This way specific rules could be identified as unfairly targeting population subgroups. 
- &nbsp; 
- In this role, I used statistical analysis in a way that had not been used in IAG fraud analytics before. By constantly delivering and showcasing my research in a formal setting to upper management, I became confident in my skills to present &amp; discuss analytical findings."> Insurance Australia Group (Jun20 - Oct21) | <u><strong>Fraud Analyst</strong></u></span> <br><br></li>
-<li><span class="hovertext" data-hover="Agtuary | Data Scientist 
- &nbsp; 
- My time at Agtuary was part of a work experience course through University. I was tasked with finding a way to induce patterns from remote sensing satellite images in order to predict annual crop yield across Australian farms.  
- &nbsp; 
- As a deliverable, Agtuary required a module that allowed crop yield predictions to be made, and in the process, outputting predictions, model metrics and model parameters to file.  
- &nbsp; 
- After experimenting, the final model was an XGBoost model with Hyperopt tuning. Due to the small sample of training data, observations were simulated using the Prophet module (developed by Facebook). I believe the simulated data points are what drove the success of this model. The success of this model actually outperformed the existing CSIRO’s (Aus govt body) crop prediction model."> Agtuary (Aug20 - Oct20) | <u><strong>Data Scientist</strong></u></span> <br><br></li>
+<li>&lt;span class=“hover text” data-hover=“<code>r readLines("job_descriptions/beca.txt")</code>”&gt; Beca (Nov23 - Present) | <u><strong>Senior Asset Technician</strong></u> <br><br></li>
+<li>International Travel (Feb23 - Nov23) | <a href="https://shaggycamel-travelblog.netlify.app/">Travel blog</a> | <a href="https://github.com/shaggycamel/travel_blog">code</a> <br><br></li>
+<li>&lt;span class=“hover text” data-hover=“<code>r readLines("job_descriptions/eeca.txt")</code>”&gt; Energy Efficiency Conservation Authority (Aug22 - Feb23) | <u><strong>Data Scientist</strong></u> <br><br></li>
+<li>&lt;span class=“hovertext” data-hover=“<code>r readLines("job_descriptions/aia.txt")</code>”&gt; AIA (Apr22 - Aug22) | <u><strong>Insights Analyst</strong></u> <br><br></li>
+<li>&lt;span class=“hovertext” data-hover=“<code>r readLines("job_descriptions/iag_senior.txt")</code>”&gt; Insurance Australia Group (Oct21 - Apr22) | <u><strong>Senior Fraud Analyst</strong></u> <br><br></li>
+<li>&lt;span class=“hovertext” data-hover=“<code>r readLines("job_descriptions/iag.txt")</code>”&gt; Insurance Australia Group (Jun20 - Oct21) | <u><strong>Fraud Analyst</strong></u> <br><br></li>
+<li>&lt;span class=“hovertext” data-hover=“<code>r readLines("job_descriptions/agtuary.txt")</code>”&gt; Agtuary (Aug20 - Oct20) | <u><strong>Data Scientist</strong></u> <br><br></li>
 <li>Insurance Australia Group (Feb19 - Jun20) | <u><strong>Business Performance Analyst</strong></u> <br><br></li>
 <li>Roy Morgan (Oct17 - Jan19) | <u><strong>Panel Manager of Web Audience Research</strong></u> <br><br></li>
 <li>Roy Morgan (Sep15 - Oct17) | <u><strong>Reporting, Data Analyst</strong></u> <br><br></li>
@@ -168,9 +143,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -206,10 +195,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -219,8 +225,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -232,9 +247,245 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -275,6 +526,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
